@@ -1,0 +1,55 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+<script src="http://static.flowplayer.org/js/flowplayer-3.2.6.min.js"></script>
+<script src="http://statis.flowpalyer.org/js/flowplayer.playlist-3.0.8.min.js"><script/>
+<script src="http://static.flowplayer.org/js/flowplayer.ipad-3.2.2.min.js"></script> 
+<!-- player container--> 
+<a
+	style="display:block;width650px;height:390px" id="ipad">
+</a> 
+	<script>
+
+		$f("ipad", {src:"/player/player/flowplayer-3.2.7.swf",width:'650px',height:'390px'},{
+			key: '#$513ccdcba36d43813bc',
+
+	        // configure clip to use "lighthttpd" plugin for providing video data
+			clip: {
+								url: 'http://vz156042.cloudtanium.com/ipman2.mp4',
+				provider: 'lighttpd',
+				scaling:'fit',
+				autoPlay:true
+			},
+			canvas:{
+				backgroundGradient:'none'
+			},
+			// streaming plugins are configured normally under plugins node
+			plugins: {
+				lighttpd: {
+					url: '/player/player/flowplayer.pseudostreaming-3.2.7.swf'
+				},
+			   controls: {
+			   		url:'flowplayer.controls-3.2.5.swf',
+					timeBgColor:'#555555',
+					bufferGradient:'none',
+					borderRadius:'10',
+					timeColor:'#ff14c3',
+					buttonColor:'#636363',
+					tooltipTextColor:'#ffffff',
+					sliderColor:'#000000',
+					durationColor:'#ffffff',
+					backgroundColor:'#ffffff',
+					volumeSliderGradient:'none',
+					buttonOverColor:'#eb00ae',
+					progressColor:'#ff4de4',
+					bufferColor:'#bfbfbf',
+					backgroundGradient:[0.6,0.3,0,0,0],
+					progressGradient:'medium',
+					sliderGradient:'none',
+					tooltipColor:'#5F747C',
+					volumeSliderColor:'#000000',
+					height:24,
+					opacity:1.0
+				}
+			}
+		});
+		
+	</script>
