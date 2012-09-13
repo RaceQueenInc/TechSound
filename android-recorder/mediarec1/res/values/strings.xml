@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_rec_des">/mnt/sdcard/myrecs/myrec.wav</string>
+    <string name="app_name">mediarec1</string>
+</resources>
