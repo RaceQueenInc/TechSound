@@ -1,0 +1,193 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* VoiceRecordAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 770}}";
+			sepNavSelRange = "{340, 0}";
+			sepNavVisRange = "{0, 490}";
+		};
+	};
+	1D3623250D0F684500981E51 /* VoiceRecordAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2244, 1245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1879}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* VoiceRecord */ = {
+		activeExec = 0;
+		executables = (
+			E179C106125B500900D0CD50 /* VoiceRecord */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* VoiceRecordViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 767}}";
+			sepNavSelRange = "{403, 0}";
+			sepNavVisRange = "{0, 689}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* VoiceRecordViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 3045}}";
+			sepNavSelRange = "{4761, 0}";
+			sepNavVisRange = "{0, 1334}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = E179C106125B500900D0CD50 /* VoiceRecord */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* VoiceRecord */;
+		breakpoints = (
+		);
+		codeSenseManager = E179C117125B501300D0CD50 /* Code sense */;
+		executables = (
+			E179C106125B500900D0CD50 /* VoiceRecord */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337239230;
+			PBXWorkspaceStateSaveDate = 337239230;
+		};
+		perUserProjectItems = {
+			E179C2CF125B7AB200D0CD50 /* PlistBookmark */ = E179C2CF125B7AB200D0CD50 /* PlistBookmark */;
+			E18F296A125C4ACD00059FB1 /* PBXTextBookmark */ = E18F296A125C4ACD00059FB1 /* PBXTextBookmark */;
+			E197E152127ADAC6004D5B6D /* PBXTextBookmark */ = E197E152127ADAC6004D5B6D /* PBXTextBookmark */;
+			E1B1B2371419DCED005902DB /* PBXTextBookmark */ = E1B1B2371419DCED005902DB /* PBXTextBookmark */;
+			E1B1B2381419DCED005902DB /* PBXTextBookmark */ = E1B1B2381419DCED005902DB /* PBXTextBookmark */;
+			E1B1B2391419DCED005902DB /* PBXTextBookmark */ = E1B1B2391419DCED005902DB /* PBXTextBookmark */;
+		};
+		sourceControlManager = E179C116125B501300D0CD50 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	E179C106125B500900D0CD50 /* VoiceRecord */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = VoiceRecord;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	E179C116125B501300D0CD50 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	E179C117125B501300D0CD50 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	E179C2CF125B7AB200D0CD50 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* VoiceRecord-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/avinash/Documents/VoiceRecord/VoiceRecord-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	E18F296A125C4ACD00059FB1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* VoiceRecordAppDelegate.h */;
+		name = "VoiceRecordAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 490;
+		vrLoc = 0;
+	};
+	E197E152127ADAC6004D5B6D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* VoiceRecordViewController.h */;
+		name = "VoiceRecordViewController.h: 17";
+		rLen = 0;
+		rLoc = 403;
+		rType = 0;
+		vrLen = 689;
+		vrLoc = 0;
+	};
+	E1B1B2371419DCED005902DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* VoiceRecordAppDelegate.m */;
+		name = "VoiceRecordAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1879;
+		vrLoc = 0;
+	};
+	E1B1B2381419DCED005902DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* VoiceRecordViewController.m */;
+		name = "VoiceRecordViewController.m: 153";
+		rLen = 0;
+		rLoc = 4760;
+		rType = 0;
+		vrLen = 1498;
+		vrLoc = 4267;
+	};
+	E1B1B2391419DCED005902DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* VoiceRecordViewController.m */;
+		name = "VoiceRecordViewController.m: 154";
+		rLen = 0;
+		rLoc = 4761;
+		rType = 0;
+		vrLen = 1334;
+		vrLoc = 0;
+	};
+}
